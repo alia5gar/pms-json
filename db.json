@@ -21,6 +21,14 @@
     {
       "id": 3,
       "name": "Prasad"
+    },
+    {
+      "id": 4,
+      "name": "Sumedha"
+    },
+    {
+      "id": 5,
+      "name": "Joan Dao"
     }
   ],
 
@@ -37,14 +45,14 @@
       "title" : "Test feedback template",
       "createdBy" : 3,
       "group_status" : "CLOSED",
-      "group_weitage": "0.4",
+      "group_weightage": "0.4",
       "year": 2022,
       "feedback_type" : "performance",
-      "feedbackFor": "1",
+      "feedbackFor": 1,
        "feedbackFrom" : [
         {
-          "Role": "Project manager",
-          "Reviewer" : "Sumedha",
+          "role": "Project manager",
+          "reviewer" : 4,
           "weightage" : 0.3,
           "score": 4,
           "calibrated_score": 5,
@@ -53,8 +61,8 @@
           "status" : "SUBMITTED"
         },
         {
-          "Role": "Peer",
-          "Reviewer" : "Shivam",
+          "role": "Peer",
+          "reviewer" : "Shivam",
           "weightage" : 0.1,
           "score": 4,
           "calibrated_score": 5,
@@ -63,8 +71,8 @@
           "status" : "CREATED"
         },
         {
-          "Role": "Career manager",
-          "Reviewer" : "Joan Doe",
+          "role": "Career manager",
+          "reviewer" : ,
           "weightage" : 0.2,
           "status": "READ",
           "templateId": 1
@@ -79,13 +87,14 @@
           "templateId": 1
         },
         {
-          "Role": "Client",
+          "role": "Client",
           "client_email" : "anton@gmail.com",
           "weightage" : 0.2,
           "score": 4,
           "calibrated_score": 5,
           "status": "CREATED",
-          "templateId": 1
+          "templateId": 1,
+          "token": "ae63034a-3e5f-11ed-b878-0242ac120002"
         }
        ] 
     }
