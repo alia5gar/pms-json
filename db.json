@@ -3,7 +3,7 @@
     {
       "id": "1",
       "template_string" : "[{\"name\":\"Performance\",\"description\":\"Feedback form\",\"theme\":{\"bgColor\":\"ffffff\",\"textColor\":\"555555\",\"bannerImage\":\"\"},\"attributes\":[{\"type\":\"text\",\"icon\":\"fa-font\",\"label\":\"Text\",\"description\":\"Enter your name\",\"placeholder\":\"Enter your name\",\"className\":\"form-control\",\"subtype\":\"text\",\"regex\":\"\",\"handle\":true,\"name\":\"text-1661854863417\"},{\"type\":\"textarea\",\"icon\":\"fa-text-width\",\"label\":\"Textarea\",\"name\":\"textarea-1661854859269\"},{\"type\":\"checkbox\",\"required\":true,\"label\":\"Checkbox\",\"icon\":\"fa-list\",\"description\":\"Checkbox\",\"inline\":true,\"values\":[{\"label\":\"Option 1\",\"value\":\"option-1\"},{\"label\":\"Option 2\",\"value\":\"option-2\"}],\"name\":\"checkbox-1661854866060\"},{\"type\":\"radio\",\"icon\":\"fa-list-ul\",\"label\":\"Radio\",\"description\":\"Radio boxes\",\"values\":[{\"label\":\"Option 1\",\"value\":\"option-1\"},{\"label\":\"Option 2\",\"value\":\"option-2\"}],\"name\":\"radio-1661854868053\"},{\"type\":\"autocomplete\",\"icon\":\"fa-bars\",\"label\":\"Select\",\"description\":\"Select\",\"placeholder\":\"Select\",\"className\":\"form-control\",\"values\":[{\"label\":\"Option 1\",\"value\":\"option-1\"},{\"label\":\"Option 2\",\"value\":\"option-2\"},{\"label\":\"Option 3\",\"value\":\"option-3\"}],\"name\":\"autocomplete-1661854870557\"}]},{\"name\":\"Skills\",\"theme\":{\"bgColor\":\"ffffff\",\"textColor\":\"555555\",\"bannerImage\":\"\"},\"attributes\":[{\"type\":\"radio\",\"icon\":\"fa-list-ul\",\"label\":\"Radio\",\"description\":\"Radio boxes\",\"values\":[{\"label\":\"Option 1\",\"value\":\"option-1\"},{\"label\":\"Option 2\",\"value\":\"option-2\"}],\"name\":\"radio-1661855271044\"}]},{\"name\":\"dfaf\",\"theme\":{\"bgColor\":\"ffffff\",\"textColor\":\"555555\",\"bannerImage\":\"\"},\"attributes\":[{\"type\":\"textarea\",\"icon\":\"fa-text-width\",\"label\":\"Textarea\",\"name\":\"textarea-1661855266694\"}]}]",
-      "job_title" : "ANALYST",
+      "job_title" : "SENIOR_CONSULTANT",
       "role" : "SUPERVISIOR",
       "template_name": "Json server template"
     }
@@ -12,19 +12,19 @@
   "user": [
     {
       "id": 1,
-      "name": "Ali"
+      "name": "Lee Nonmi"
     },
     {
       "id": 2,
-      "name": "Sawan"
+      "name": "Karen Onnabit"
     },
     {
       "id": 3,
-      "name": "Prasad"
+      "name": "Hugo First"
     },
     {
       "id": 4,
-      "name": "Sumedha"
+      "name": "Del Phineum"
     },
     {
       "id": 5,
@@ -67,7 +67,7 @@
         },
         {
           "role": "PEER",
-          "reviewer" : "Shivam",
+          "reviewer" : 2,
           "weightage" : 0.1,
           "score": 4,
           "calibrated_score": 5,
@@ -83,8 +83,8 @@
           "templateId": 1
         },
         {
-          "role": "SUPERVISON",
-          "reviewer" : 6,
+          "role": "SUPERVISOR",
+          "reviewer" : 5,
           "weightage" : 0.2,
           "score": 4,
           "calibrated_score": 5,
@@ -93,7 +93,7 @@
         },
         {
           "role": "CLIENT",
-          "client_email" : "anton@gmail.com",
+          "client_email" : "foobar@gmail.com",
           "weightage" : 0.2,
           "score": 4,
           "calibrated_score": 5,
